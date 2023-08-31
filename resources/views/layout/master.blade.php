@@ -90,7 +90,7 @@
         <footer class="border border-white border-2 bg-dark text-center text-lg-start text-light">
             <!-- Grid container -->
             @if (session('message'))
-                <div class=""alert alert-success"">
+                <div class="alert alert-success">
                     {{ session('message') }}
                 </div>
             @endif

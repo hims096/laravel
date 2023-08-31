@@ -20,7 +20,7 @@ use App\Http\Controllers\SubscriberController;
 
 //mail subscribe
 
-//Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe.post');
+
 
 
 // longin system
@@ -73,7 +73,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::PUT('/update/{id}', [productController::class, 'update'])->name('update');
     });
 
-
+    Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe.post');
 });
 
 

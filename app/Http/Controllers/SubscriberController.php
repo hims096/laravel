@@ -14,16 +14,18 @@ class SubscriberController extends Controller
     {
 
         $request->validate([
-            'email' => 'required|email|unique:subscribers'
+            'email' => 'required|email|'
         ]);
 
         $subscriber = Subscriber::create([
             'email' => $request->email
+
         ]);
+
 
 
         Mail::to($subscriber->email)->send(new SubscriptionConfirmationMail());
 
-        return response()->json(['message' => 'Successfully subscribed!']);
+        return redirect()->back()->with('success', 'You have been subscribed successfully!');
     }
 }
