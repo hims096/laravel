@@ -111,7 +111,7 @@
                         <div class="col-md-5 col-12 mb-4 mb-md-0">
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                                <input type="email" id="form5Example25" class="form-control"
+                                <input type="email" class="form-control"
                                     placeholder="Enter Your Email ID" />
 
                             </div>
