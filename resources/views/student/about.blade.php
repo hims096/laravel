@@ -21,7 +21,8 @@
                 maiores
                 repellendus. Odit voluptatibus voluptas in dignissimos soluta alias laudantium.
                 <hr>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, possimus eos pariatur animi dolorem ipsam
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, possimus eos pariatur animi dolorem
+                ipsam
                 autem?
                 Voluptates, ipsam ducimus minima eaque deleniti minus non a eligendi, mollitia officiis, nihil eveniet
                 sapiente
@@ -31,7 +32,8 @@
                 eum ex voluptatem natus nisi. Quo quisquam harum quos sequi at ullam, quasi explicabo cumque assumenda
                 asperiores atque voluptatum dignissimos.
                 <hr>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, obcaecati beatae, molestiae corrupti
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, obcaecati beatae, molestiae
+                corrupti
                 iure
                 id tempora sunt impedit eaque consequatur esse vero odit. Officia nisi necessitatibus ipsum, itaque, eum
                 quidem,
@@ -44,10 +46,12 @@
                 </center>
                 <div>
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
-                                marginwidth="0"
-                                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                                href="https://connectionsgame.org/">Connections Game</a></div>
+                        <div class="gmap_canvas">
+                            <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                                    marginwidth="0"
+                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            <a
+                                    href="https://connectionsgame.org/">Connections Game</a></div>
                         <style>
                             .mapouter {
                                 position: relative;
